@@ -1,10 +1,13 @@
 import React from 'react';
 import RootLayout from './layout';
+import IntroPart from './components/IntroPart';
+import BackGround2 from './components/BackGround2';
 
 const mainPage = () => {
   return (
     <RootLayout>
-      <h1>Hello World</h1>
+      <IntroPart />
+      <BackGround2 />
     </RootLayout>
   );
 };
