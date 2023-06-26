@@ -1,0 +1,30 @@
+.about {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    &__content {
+        position: relative;
+        // height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        color: #90749c;
+        z-index: 1;
+        margin-top: 80px;
+    }
+
+    &__title {
+        font-size: 2em;
+        background-color: #12001a;
+    }
+
+    &__description {
+        width: 70%;
+        margin-top: 50px;
+        font-size: 1.2em;
+        background-color: #12001a;
+    }
+}
