@@ -1,5 +1,5 @@
 import React from 'react';
-import BackGround2 from './BackGround2';
+import BackGround2 from '../components/BackGround2';
 import Image from 'next/image';
 import mrnJojo from '../assets/Images/mrnJojo1.png'
 

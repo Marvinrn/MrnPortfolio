@@ -1,7 +1,7 @@
 import React from 'react';
 import RootLayout from './layout';
-import IntroPart from './components/IntroPart';
-import About from './components/About';
+import IntroPart from './pages/IntroPart';
+import About from './pages/About';
 
 const mainPage = () => {
   return (

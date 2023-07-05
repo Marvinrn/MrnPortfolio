@@ -1,5 +1,5 @@
 import React from 'react';
-import BackGround from './BackGround';
+import BackGround from '../components/BackGround';
 
 const IntroPart = () => {
     return (
