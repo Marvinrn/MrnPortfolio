@@ -32,6 +32,9 @@
     &__cards {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        gap: 20px;
+        width: 500px;
+        padding: 20px;
+        background-color: #12001a;
     }
 }

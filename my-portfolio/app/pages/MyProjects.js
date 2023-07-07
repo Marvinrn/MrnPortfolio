@@ -6,7 +6,7 @@ const MyProjects = () => {
     return (
         <section className='myProjects'>
             <div className='myProjects__content'>
-                <h2 className='myProjects__title'>Mes Projets dont je suis fier</h2>
+                <h2 className='myProjects__title'>Mes Projets</h2>
                 <div className='myProjects__cards--flex'>
                     <div className='myProjects__cards'>
                         <h3>Projet 1</h3>
