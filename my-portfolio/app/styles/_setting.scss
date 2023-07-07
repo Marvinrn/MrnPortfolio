@@ -11,5 +11,6 @@ $font-1: sans-serif;
 html,
 body {
     font-family: $font-1;
-    height: 100%;
+    min-height: 100vh;
+    // color: #90749c;
 }

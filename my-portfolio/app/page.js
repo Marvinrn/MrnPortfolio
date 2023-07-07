@@ -1,13 +1,15 @@
 import React from 'react';
 import RootLayout from './layout';
 import IntroPart from './pages/IntroPart';
+import MyProjects from './pages/MyProjects';
 import About from './pages/About';
 
 const mainPage = () => {
   return (
-    <RootLayout>
+    <RootLayout >
       <IntroPart />
       <About />
+      <MyProjects />
     </RootLayout>
   );
 };

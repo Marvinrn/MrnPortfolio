@@ -1,15 +1,15 @@
-.bg2 {
+.bg3 {
 
-    .lines2 {
+    .lines3 {
         min-height: 100vh;
-        background-color: #12001a;
+        background-color: #5c4964;
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
 
-        .line2 {
+        .line3 {
             position: absolute;
             width: 3px;
             min-height: 100vh;
@@ -26,8 +26,8 @@
                 width: 100%;
                 top: -50%;
                 left: 0;
-                background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #90749c 75%, #90749c 100%);
-                animation: drop 5s infinite;
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #12001a 75%, #12001a 100%);
+                animation: drop2 5s infinite;
                 animation-fill-mode: forwards;
                 animation-timing-function: cubic-bezier(0.25, 0.55, 0.55, 0.55);
             }
@@ -49,7 +49,7 @@
             }
         }
 
-        @keyframes drop {
+        @keyframes drop2 {
             0% {
                 top: -50%;
             }
